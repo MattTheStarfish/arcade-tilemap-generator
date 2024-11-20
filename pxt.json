@@ -1,10 +1,11 @@
 {
-    "name": "Roguelike Game",
+    "name": "Tilemap Generator",
     "description": "",
     "dependencies": {
         "device": "*",
         "color-coded-tilemap": "*",
-        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0"
+        "arcade-tile-util": "github:microsoft/arcade-tile-util#v1.2.0",
+        "FastRandomBlocks": "github:UnsignedArduino/Fast-Random-Blocks#8c985a77e5c4278e43a7bc375db095c67afb58ed"
     },
     "files": [
         "main.blocks",
@@ -12,7 +13,11 @@
         "README.md",
         "assets.json",
         "libs/perlinNoise.ts",
-        "src/blocks/mapGenerator.ts"
+        "src/blocks/mapGenerator.ts",
+        "tilemap.g.jres",
+        "tilemap.g.ts",
+        "images.g.jres",
+        "images.g.ts"
     ],
     "testFiles": [
         "test.ts"
